@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScotiabankHomeAssignment</string>
+    <string name="lbl_toolbar">Take Home</string>
+    <string name="search">Search</string>
+    <string name="lbl_enter_github_uid">Enter a github user id</string>
+
+    <string name="err_empty_response">Empty response body</string>
+    <string name="err_api_call_failed">API call failed</string>
+    <string name="err_api_failed_with_code">API call failed with code: %1$d</string>
+</resources>
