@@ -8,12 +8,6 @@ import retrofit2.http.Path
 
 interface UserService {
 
-//    @GET("users/{userId}")
-//    suspend fun getUserDetails(@Path("userId") userId: String): User
-//
-//    @GET("users/{userId}/repos")
-//    suspend fun getUserRepoList(@Path("userId") userId: String): List<UserRepoList>
-
     @GET("users/{userId}")
     suspend fun fetchUserData(@Path("userId") userId: String): Response<User>
 
